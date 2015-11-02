@@ -1,0 +1,13 @@
+<?php
+
+function random ($name) //function accpeting the argument
+
+{
+
+return($name." ".rand(5,16)); // returning output in specified manner 
+
+}
+
+echo(random('Rahul'));// calling function and printing its result
+
+?>
